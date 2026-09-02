@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andrei Ishmae Lapitan — Portfolio</title>
+<meta name="description" content="Personal portfolio of Andrei Ishmael Lapitan, BSIT student at the University of Cabuyao.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons (used for social icons + UI glyphs) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="midlabexam.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
+
+<!-- ============ NAVBAR (component 1) ============ -->
+<nav class="navbar navbar-expand-lg fixed-top site-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Maya<span class="mark">.Santos</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Homepage</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mission">Mission/Vision</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ============ HOMEPAGE ============ -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <p class="section-marker">BSIT · WEB TECHNOLOGIES MIDTERM PORTFOLIO</p>
+          <h1 class="hero-name">Andrei Ishmael Lapitan</h1>
+          <p class="hero-role">Front-End Developer in training — BSIT, University of Cabuyao</p>
+          <p class="hero-lede">
+            I build clean, usable interfaces and I'm currently sharpening that craft with
+            HTML5, CSS3, and Bootstrap. This site is my midterm laboratory exam for
+            CCS114, built page by page as a working portfolio rather than a mockup.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <!-- BUTTON component -->
+            <a href="#gallery" class="btn btn-accent">View my gallery</a>
+            <a href="#contact" class="btn btn-outline-light-line">Get in touch</a>
+          </div>
+          <p class="hero-meta">Cabuyao, Laguna, Philippines</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ME/US ============ -->
+  <section id="about" class="section section-paper">
+    <div class="container">
+      <p class="section-marker">ABOUT ME</p>
+      <h2 class="section-title">A bit about who I am</h2>
+
+      <div class="row gy-4 mb-5">
+        <div class="col-lg-5">
+          <p>
+            I'm a second-year BSIT student at the University of Cabuyao with a growing
+            focus on web development. I like translating a blank page into something a
+            person can actually navigate — clear layout first, decoration second.
+          </p>
+          <!-- LIST GROUP component -->
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Age</span><span>19</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Course</span><span>BS Information Technology</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Year level</span><span>2nd Year</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>School</span><span>University of Cabuyao</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <!-- CARD component x3 -->
+            <div class="col-sm-6">
+              <div class="card about-card">
+                <div class="card-body">
+                  <h5 class="card-title">Education</h5>
+                  <p class="card-text small text-muted mb-0">
+                    Senior High School (STEM strand) completed 2025, now pursuing a
+                    BSIT degree focused on software development.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card about-card">
+                <div class="card-body">
+                  <h5 class="card-title">Currently learning</h5>
+                  <p class="card-text small text-muted mb-0">
+                    Responsive layout patterns, Bootstrap's component library, and the
+                    basics of backend integration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card about-card">
+                <div class="card-body">
+                  <h5 class="card-title">Interests</h5>
+                  <p class="card-text small text-muted mb-0">
+                    UI design, badminton, and building small tools that fix everyday
+                    annoyances.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card about-card">
+                <div class="card-body">
+                  <h5 class="card-title">Goal</h5>
+                  <p class="card-text small text-muted mb-0">
+                    I want to be a front-end developer within the next two
+                    semesters.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="rule mb-5">
+
+      <div class="row gy-5">
+        <div class="col-lg-6">
+          <h3 class="h5 mb-4">Skills</h3>
+          <!-- PROGRESS BAR component -->
+          <div class="skill-row">
+            <div class="label"><span>HTML5</span><span>90%</span></div>
+            <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>CSS3</span><span>85%</span></div>
+            <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>Bootstrap</span><span>80%</span></div>
+            <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>JavaScript</span><span>65%</span></div>
+            <div class="progress"><div class="progress-bar" style="width:65%"></div></div>
+          </div>
+
+          <!-- BADGE component -->
+          <div class="mt-4">
+            <span class="badge-skill">Git</span>
+            <span class="badge-skill">Figma</span>
+            <span class="badge-skill">MySQL</span>
+            <span class="badge-skill">Responsive Design</span>
+            <span class="badge-skill">Java (basics)</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="h5 mb-4">Education & experience</h3>
+          <!-- ACCORDION component -->
+          <div class="accordion" id="eduAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#eduOne">
+                  BSIT — University of Cabuyao (2026–Present)
+                </button>
+              </h2>
+              <div id="eduOne" class="accordion-collapse collapse show" data-bs-parent="#eduAccordion">
+                <div class="accordion-body">
+                  Coursework in web technologies, data structures, and database
+                  management. This site is a deliverable from the CCS114 midterm exam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduTwo">
+                  Senior High School — STEM Strand (2023–2025)
+                </button>
+              </h2>
+              <div id="eduTwo" class="accordion-collapse collapse" data-bs-parent="#eduAccordion">
+                <div class="accordion-body">
+                  Built a foundation in mathematics and the sciences, and took an
+                  elective in introductory programming.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduThree">
+                  Freelance — Small campus projects
+                </button>
+              </h2>
+              <div id="eduThree" class="accordion-collapse collapse" data-bs-parent="#eduAccordion">
+                <div class="accordion-body">
+                  Helped design event posters and a simple landing page for a student
+                  organization.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <p class="section-marker">GALLERY</p>
+      <h2 class="section-title">Moments worth showing</h2>
+
+      <!-- CAROUSEL component -->
+      <div id="galleryCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images (2).jpeg" class="d-block w-100" alt="Featured photo 1">
+            <div class="carousel-caption"><p class="mb-0">University of Cabuyao</p></div>
+          </div>
+          <div class="carousel-item">
+            <img src="dabarkads.jpeg" class="d-block w-100" alt="Featured photo 2">
+            <div class="carousel-caption"><p class="mb-0">Dabarkads</p></div>
+          </div>
+          <div class="carousel-item">
+            <img src="labidabs.jpeg" class="d-block w-100" alt="Featured photo 3">
+            <div class="carousel-caption"><p class="mb-0">Labidabs</p></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <p class="mb-4 opacity-75">Tap any photo below for a closer look.</p>
+      <div class="row g-3">
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-1.svg" data-caption="Campus life at University of Cabuyao">
+            <img src="img2.jpeg" alt="Gallery photo 1">
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-2.svg" data-caption="Working on this exam">
+            <img src="img3.jpeg" alt="Gallery photo 2">
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-3.svg" data-caption="With classmates, BSIT block">
+            <img src="img4.jpeg" alt="Gallery photo 3">
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-4.svg" data-caption="Weekend badminton">
+            <img src="img5.jpeg" alt="Gallery photo 4">
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-5.svg" data-caption="Org event, backstage">
+            <img src="img6.jpeg" alt="Gallery photo 5">
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="gallery-item ratio ratio-1x1" data-bs-toggle="modal" data-bs-target="#lightboxModal"
+               data-full="images/gallery-6.svg" data-caption="First laptop setup">
+            <img src="img7.jpeg" alt="Gallery photo 6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL component (gallery lightbox) -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="lightboxCaption">Photo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img id="lightboxImage" src="images/gallery-1.svg" class="img-fluid rounded" alt="Enlarged gallery photo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ MISSION / VISION ============ -->
+  <section id="mission" class="section section-paper">
+    <div class="container">
+      <p class="section-marker">MISSION &amp; VISION</p>
+      <h2 class="section-title">University of Cabuyao</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="mv-card">
+            <h3 class="h5 mb-3"><i class="bi bi-flag me-2"></i>Mission</h3>
+            <p class="mb-0 opacity-75">
+              As a higher-learning institution, the University of Cabuyao is committed to
+              equipping every student with the knowledge, skills, and values needed to
+              reach their professional goals, while preparing them to provide leadership
+              and service toward national development.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mv-card">
+            <h3 class="h5 mb-3"><i class="bi bi-eye me-2"></i>Vision</h3>
+            <p class="mb-0 opacity-75">
+              To stand as a premier institution of higher learning in Region IV,
+              developing globally competitive, value-laden professionals and leaders who
+              are instrumental to community development and nation-building.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALERT component (informational, dismissible) -->
+      <div class="alert alert-light border mt-4 d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-info-circle mt-1"></i>
+        <div class="small opacity-75 mb-0">
+          Paraphrased from the University of Cabuyao's published Mission and Vision.
+          For the official wording, refer to the University's website.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ME/US ============ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <p class="section-marker">CONTACT ME</p>
+          <h2 class="section-title">Let's work together</h2>
+          <p class="opacity-75 mb-4">
+            Contact Me
+            Send a message and I'll get back to you.
+          </p>
+
+          <!-- Success ALERT, hidden until form submit -->
+          <div id="contactSuccessAlert" class="alert alert-success alert-dismissible d-none" role="alert">
+            <strong>Message sent.</strong> Thanks for reaching out — I'll reply soon.
+            <button type="button" id="closeSuccessAlert" class="btn-close" aria-label="Close"></button>
+          </div>
+
+          <!-- FORM component -->
+          <form id="contactForm" class="contact-form row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="fullName" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="fullName" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="col-12">
+              <label for="reason" class="form-label">Reason for contact</label>
+              <select class="form-select" id="reason" required>
+                <option value="" selected disabled>Choose one</option>
+              </select>
+              <div class="invalid-feedback">Please choose a reason.</div>
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+              <div class="invalid-feedback">Please write a short message.</div>
+            </div>
+            <div class="col-12">
+              <!-- BUTTON component -->
+              <button type="submit" class="btn btn-accent">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
+          <h3 class="h6 mb-3">Reach me directly</h3>
+          <p class="opacity-75 mb-1"><i class="bi bi-envelope me-2"></i>dreilapitan@example.com</p>
+          <p class="opacity-75 mb-4"><i class="bi bi-geo-alt me-2"></i>Cabuyao, Laguna,</p>
+
+          <h3 class="h6 mb-3">Find me online</h3>
+          <div>
+            <!-- TOOLTIP component x4 (on social icons) -->
+            <a href="#" class="social-icon" data-bs-toggle="tooltip" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-icon" data-bs-toggle="tooltip" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" data-bs-toggle="tooltip" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" data-bs-toggle="tooltip" title="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer text-center">
+  <div class="container">
+   © 2026 University of Cabuyao.
+  </div>
+</footer>
+
+<!-- TOAST component -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="sentToast" class="toast" role="status" aria-live="polite" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        <i class="bi bi-check-circle me-2"></i>Your message was sent.
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
